@@ -9,36 +9,6 @@
 
 <body>
 
-    <header>
-        <h1>Student Attendance Management System</h1>
-        <p>Manage student attendance easily</p>
-    </header>
-
-    <main>
-        <section class="dashboard">
-            <h2>Dashboard</h2>
-
-            <div class="cards">
-                <div class="card">
-                    <h3>Students</h3>
-                    <p id="studentCount">0</p>
-                </div>
-
-                <div class="card">
-                    <h3>Attendance</h3>
-                    <p>Manage Attendance</p>
-                </div>
-
-                <div class="card">
-                    <h3>Reports</h3>
-                    <p>Generate Reports</p>
-                </div>
-            </div>
-
-            <button onclick="openChatbot()">💬 Ask AI Assistant</button>
-        </section>
-    </main>
-
     <!-- Chatbot -->
     <div class="chatbot" id="chatbot">
 
